@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #e4051f;
+  margin-bottom: 10px;
+}
+header h1 {
+  position: relative;
+  top: 10px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #e4051f;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.Timer {
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 7px;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgb(102, 102, 102);
+  transform: scale(1);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.card:active {
+  transform: scale(0.9);
+  transition: transform 0.2s;
+}
+.front {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #e4051f;
+}
+.fas {
+  line-height: 100px;
+  position: relative;
+  display: none;
+}
+.modal {
+  margin-top: 100px;
+}
+.modal-content {
+  background-color: white;
+  color: #e4051f;
+}
+.modal-content .btn {
+  border-color: #e4051f;
+  background-color: white;
+  color: #e4051f;
+}
+.btn-close:hover {
+  background-color: #e4051f;
+}
